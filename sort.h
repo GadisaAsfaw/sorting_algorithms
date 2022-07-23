@@ -24,7 +24,7 @@ void swap_int1(int *array, int a, int b);
 void swap_list(listint_t *i, listint_t *aux, listint_t **list);
 void cocktail_sort_list(listint_t **list);
 void recursive_quick_sort(int *array, size_t size, int start, int end);
-size_t partition(int *array, size_t size, int start, int end);
+int partition(int *array, int start, int end, size_t size);
 
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
